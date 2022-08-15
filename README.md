@@ -17,7 +17,7 @@ The output for each rover should be its final co-ordinates and heading.
 
 Test Input:
 ```
-Plateau:5 5
+[5,5]
 Rover1 Landing:1 2 N
 Rover1 Instructions:LMLMLMLMM
 Rover2 Landing:3 3 E
@@ -26,8 +26,8 @@ Rover2 Instructions:MRRMMRMRRM
 
 Expected Output:
 ```
-Rover1:1 3 N
-Rover2:2 3 S
+Rover1 🚀 x:1 y:3 facing N.
+Rover2 🚀 x:2 y:3 facing S.
 ```
 
 
